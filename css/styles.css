@@ -1,0 +1,235 @@
+:root{
+  --main-font: Montserat, sans-serif;
+  --orange-cl: #FD9222;
+  --violet-cl: #1E1823;
+  --black-cl: #111111;
+
+}
+
+/**
+  |============================
+  | Common Styles
+  |============================
+*/
+body {
+    font-family: var(--main-font);
+    color: var(--black-cl);
+}
+
+.main-text{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-cl);
+}
+
+.main-title{
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--black-cl);
+}
+
+.title-italic {
+  color: var(--orange-cl)
+}
+/**
+  |============================
+  | Reset
+  |============================
+*/
+button, .btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+.link,
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.list,
+ul, ol {
+    list-style: none;
+}
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header {}
+
+.header-logo {
+font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-italic {}
+
+.header-img {}
+
+.header-list {}
+
+.header-item {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.header-link {}
+
+.header-networks {}
+
+.header-networks-item {}
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+.hero {
+  background-image: url(/images/hero/bg.jpg);
+  width: 1136px;
+  height: 600px;
+  background-color: #FCF1E0;
+  border-radius: 30px;
+}
+
+.hero-title {
+font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+.hero-bn-btn {
+  background: #FD9222;
+    border-radius: 100px;
+    font-weight: 600;
+      font-size: 14px;
+      line-height: 1.21;
+      color: #FFFFFF;
+}
+
+.btn {}
+
+.hero-him-btn {
+  border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-weight: 600;
+      font-size: 14px;
+      line-height: 1.21;
+      color: #FFFFFF;
+}
+
+.hero-sd-btn {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+/**
+  |============================
+  | Benefits section
+  |============================
+*/
+.benefits {
+  background-color: var(--violet-cl);
+}
+
+.list {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-img {}
+
+.benefits-title {
+  font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+}
+
+.benefits-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/**
+  |============================
+  | Ingredients section
+  |============================
+*/
+.ingr {}
+
+
+.ingr-title {}
+
+
+.ingr-text {
+  text-align: center;
+}
+
+.ingr-list {}
+
+.ingr-img {
+
+}
+
+.ingr-subtitle {
+font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.ingr-item-chokolate{
+ background-color: var(--orange-cl);
+ color: #FFFFFF;
+ 
+}
+.ingr-item-milk{
+background-color: #FFFFFF;
+}
+.ingr-item-nuts{
+  background-color: var(--violet-cl);
+  color: #ffffff;
+}
+.ingr-item-sweet{
+  background-color: #FFFFFF;
+}
+/**
+  |============================
+  | How it's made section
+  |============================
+*/
+.how {}
+
+.main-title {}
+
+.how-title {font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--black-cl);
+}
+
+.how-italic 
+ 
+
+.how-img {}
+
+.how-list {
+  list-style-type:disc;
+}

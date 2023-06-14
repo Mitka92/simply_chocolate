@@ -11,23 +11,44 @@ of pure delight!"
     />
     <title>SIMPLY CHOCOLATE</title>
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+
+  <body class="page">
     <!-- Header section -->
-    <header>
-      <a href="./index.html"
-        >SIMPLY CHOCOLATE
-        <img src="./images/header/logo.svg" alt="Simply Chokolate logo" width="24" height="24" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#how">How it's made?</a></li>
-          <li><a href="#rewievs">Chocolate is loved</a></li>
+    <header class="header">
+      <nav clas="header-nav">
+        <a class="header-logo" href="./index.html">
+          SIMPLY CHOCOLATE
+          <img
+            class="header-img"
+            src="./images/header/logo.svg"
+            alt="Simply Chokolate logo"
+            width="24"
+            height="24"
+          />
+        </a>
+        <ul class="header-list">
+          <li class="header-item"><a class="header-link" href="./index.html">Home</a></li>
+          <li class="header-item"><a class="header-link" href="#how">How it's made?</a></li>
+          <li class="header-item"><a class="header-link" href="#rewievs">Chocolate is loved</a></li>
         </ul>
       </nav>
-      <ul>
-        <li
+      <ul class="header-networks">
+        <li class="header-networks-item"
           ><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <img
               src="./images/header/instagram.svg"
@@ -36,7 +57,7 @@ of pure delight!"
               height="24"
             /> </a
         ></li>
-        <li
+        <li class="header-networks-item"
           ><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
             <img
               src="./images/header/twitter.svg"
@@ -50,41 +71,59 @@ of pure delight!"
     <!-- Main block -->
     <main>
       <!-- Hero section -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#how">How it's made</a>
-        <button type="button">scroll down</button>
+        <button type="button" class="hero-bn-btn btn">Buy now</button>
+        <a href="#how" class="hero-him-btn btn">How it's made</a>
+        <button type="button" class="hero-sd-btn btn">scroll down</button>
       </section>
       <!-- Benefits section -->
-      <section>
+      <section class="benefits">
         <h2 hidden>Benefits of SIMPLY CHOCOLATE</h2>
-        <ul>
-          <li>
-            <img src="./images/benefits/icon-1.svg" alt="" width="32" height="32" />
-            <h3>Unsurpassed taste</h3>
-            <p
+        <ul class="list benefits-list">
+          <li class="benefits-item">
+            <img
+              class="benefits-img"
+              src="./images/benefits/icon-1.svg"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <h3 class="benefits-title">Unsurpassed taste</h3>
+            <p class="benefits-text main-text"
               >Crafted with the finest quality cocoa beans and a dedication to perfection, each bite
               is a decadent experience that simply cannot be matched. Savor the richness and
               complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p
             >
           </li>
-          <li>
-            <img src="./images/benefits/icon-2.svg" alt="" width="32" height="32" />
-            <h3>Affordable price</h3>
-            <p
+          <li class="benefits-item">
+            <img
+              class="benefits-img"
+              src="./images/benefits/icon-2.svg"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <h3 class="benefits-title">Affordable price</h3>
+            <p class="benefits-text main-text"
               >Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's
               selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate
               bars without sacrificing taste or quality. Browse our selection and indulge in
               affordable luxury today.</p
             >
           </li>
-          <li>
-            <img src="./images/benefits/icon-3.svg" alt="" width="32" height="32" />
-            <h3>Own production</h3>
-            <p
+          <li class="benefits-item">
+            <img
+              class="benefits-img"
+              src="./images/benefits/icon-3.svg"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <h3 class="benefits-title">Own production</h3>
+            <p class="benefits-text main-text"
               >We take pride in our own production process, ensuring that every step is carefully
               crafted to perfection. From selecting the finest ingredients to handcrafting each
               piece, our attention to detail is evident in every bite.</p
@@ -93,67 +132,101 @@ of pure delight!"
         </ul>
       </section>
       <!-- Ingridients section -->
-      <section>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
-        <p
+      <section class="ingr">
+        <h2 class="main-title ingr-title"
+          >IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="title-italic">TASTE</span> SENSATION</h2
+        >
+        <p class="ingr-text main-text"
           >At Simply Chocolate, we believe that the secret to exceptional chocolate is in the
           details. From the sourcing of the finest ingredients to the careful crafting of each
           individual piece, every step of our process adds up to one exceptional taste sensation.</p
         >
-        <ul>
-          <li>
+        <ul class="list ingr-list">
+          <li class="ingr-item-chokolate">
             <img
+              class="ingr-img"
               src="./images/ingridients/img-1.png"
               alt="mILK CHOCOLATE"
               width="206"
               height="160"
             />
-            <h3>mILK CHOCOLATE</h3>
+            <h3 class="ingr-subtitle">mILK CHOCOLATE</h3>
           </li>
-          <li>
-            <img src="./images/ingridients/img-2.png" alt="Milk" width="206" height="160" />
-            <h3>Milk</h3>
-          </li>
-          <li>
-            <img src="./images/ingridients/img-3.png" alt="nuts" width="206" height="160" />
-            <h3>nuts</h3>
-          </li>
-          <li>
+          <li class="ingr-item-milk">
             <img
+              class="ingr-img"
+              src="./images/ingridients/img-2.png"
+              alt="Milk"
+              width="206"
+              height="160"
+            />
+            <h3 class="ingr-subtitle">Milk</h3>
+          </li>
+          <li class="ingr-item-nuts">
+            <img
+              class="ingr-img"
+              src="./images/ingridients/img-3.png"
+              alt="nuts"
+              width="206"
+              height="160"
+            />
+            <h3 class="ingr-subtitle">nuts</h3>
+          </li>
+          <li class="ingr-item-sweet">
+            <img
+              class="ingr-img"
               src="./images/ingridients/img-4.png"
               alt="sEMI - SWEET CHOCOLATE"
               width="206"
               height="160"
             />
-            <h3>sEMI - SWEET CHOCOLATE</h3>
+            <h3 class="ingr-subtitle">sEMI - SWEET CHOCOLATE</h3>
           </li>
         </ul>
       </section>
       <!-- how it's made? section -->
-      <section id="how">
-        <h2>hOW IT'S <span>made?</span></h2>
-        <img src="./images/how/img.png" alt="making chocolate" width="600" height="400" />
-        <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
-        <ul>
+      <section id="how" class="how">
+        <h2 class="main-title how-title">hOW IT'S <span class="title-italic">made?</span></h2>
+        <img
+          class="how-img"
+          src="./images/how/img.png"
+          alt="making chocolate"
+          width="600"
+          height="400"
+        />
+        <h3 class="how-title"
+          >Try our chocolates today and discover the perfect balance of flavor</h3
+        >
+        <ul class="how-list">
           <li
-            >Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa
-            powder.</li
+            ><p class="main-text"
+              >Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa
+              powder.</p
+            ></li
           >
-          <li>At the same time, prepare a water bath. Melt the butter on it.</li>
           <li
-            >"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
-            spatula so that the mass becomes uniform and silky.</li
+            ><p class="main-text"
+              >At the same time, prepare a water bath. Melt the butter on it.</p
+            ></li
           >
-          <li>Heat the mixture over low heat, letting it barely boil.</li>
           <li
-            >Pour the chocolate into special containers (can be replaced with ice molds). Allow to
-            cool and harden.</li
+            ><p class="main-text"
+              >"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
+              spatula so that the mass becomes uniform and silky.</p
+            ></li
+          >
+          <li><p class="main-text">Heat the mixture over low heat, letting it barely boil.</p></li>
+          <li
+            ><p class="main-text"
+              >Pour the chocolate into special containers (can be replaced with ice molds). Allow to
+              cool and harden.</p
+            ></li
           >
         </ul>
       </section>
       <!-- Rewievs section -->
       <section id="rewievs">
-        <h2><span>chocolate</span> is loved</h2>
+        <h2 class="main-title"><span class="title-italic">chocolate</span> is loved</h2>
         <ul>
           <li>
             <img src="./images/reviews/img-1.png" alt="" width="80" height="80" />
