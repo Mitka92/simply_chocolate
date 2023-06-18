@@ -60,7 +60,10 @@ ul, ol {
   | Header
   |============================
 */
-.header {}
+.header {
+}
+.header-nav{
+}
 
 .header-logo {
 font-style: italic;
@@ -69,13 +72,15 @@ font-style: italic;
   line-height: 1.11;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-}
 
+}
 .header-logo-italic {}
 
-.header-img {}
+.header-img {
+}
 
-.header-list {}
+.header-list {
+}
 
 .header-item {
   font-weight: 500;
@@ -84,11 +89,14 @@ font-style: italic;
     letter-spacing: -0.02em;
 }
 
-.header-link {}
+.header-link {
+}
 
-.header-networks {}
+.header-networks {
+}
 
-.header-networks-item {}
+.header-networks-item {
+}
 /**
   |============================
   | Hero section
